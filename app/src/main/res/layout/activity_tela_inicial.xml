@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121111"
+    android:backgroundTint="#121111"
+    tools:context=".Activity.telaInicial"
+    tools:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="408dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="match_parent" />
+
+
+        <ImageView
+            android:id="@+id/ImgCasaBuscar"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_home_24"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Space
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/ImgBibliotecaBuscar"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_storage_24" />
+
+        <Space
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imgBuscarBuscar"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+        <Space
+            android:layout_width="33dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imgLapis"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_create_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.767"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <ImageView
+        android:id="@+id/imgConfiguracoes"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_settings_24"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <TextView
+        android:id="@+id/txtBomdia"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007"
+
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="#FD22FD"
+        android:text="Camisa Do Paris"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.334" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="#FD22FD"
+        android:text="Fiquei Rico cedo"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.987"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.334" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="#FD22FD"
+        android:text="Guerreiro de fé"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.987"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="#FD22FD"
+        android:text="    Vida Loka p2"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="#FD22FD"
+        android:text="    Bala Love"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="#FD22FD"
+        android:text="Um Pedido"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.969"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="80sp"
+        android:layout_height="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.374"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/_234567890" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:srcCompat="@drawable/balalove" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView6"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/sddefault" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:srcCompat="@drawable/guerreirodef_" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/casal_raiz" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView5"
+        app:srcCompat="@drawable/fiqueiricocedo" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programas para conhecer"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Canções de TFM"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.861" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="226dp"
+        android:layout_height="225dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719"
+        app:srcCompat="@drawable/tfm" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

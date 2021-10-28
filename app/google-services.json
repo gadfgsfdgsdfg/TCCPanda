@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "902354608620",
+    "project_id": "tcc2-fce3d",
+    "storage_bucket": "tcc2-fce3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902354608620:android:84ec4c12de5d0617c760c9",
+        "android_client_info": {
+          "package_name": "com.example.tcc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902354608620-g5m9u7c2k7t22e7pdpups0rdmu7pjtpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWauZBREo1ELp7Rrqht4phG6GCbo71b6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902354608620-g5m9u7c2k7t22e7pdpups0rdmu7pjtpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

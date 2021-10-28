@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="410dp"
+    android:layout_height="match_parent"
+    android:background="#121111"
+    tools:context=".Activity.Telabiblioteca">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="408dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="match_parent" />
+
+
+        <ImageView
+            android:id="@+id/ImgCasaBuscar"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_home_24"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Space
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/ImgBibliotecaBuscar"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_storage_24" />
+
+        <Space
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imgBuscarBuscar"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+        <Space
+            android:layout_width="33dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtBomdia"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txt03"
+        android:layout_width="410dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:background="#292525"
+        android:text="                        Facking Love"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt02" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:id="@+id/imgvoltartela"
+        android:src="@drawable/ic_more"
+        app:layout_constraintBottom_toBottomOf="@+id/txtBomdia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <TextView
+        android:id="@+id/txt04"
+        android:layout_width="410dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:background="#292525"
+        android:text="                        A Semana"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt03" />
+
+    <TextView
+        android:id="@+id/txt02"
+        android:layout_width="410dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:background="#292525"
+        android:text="                        Easy on me"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt01" />
+    <![CDATA[
+    />
+    ]]>
+
+    <TextView
+        android:id="@+id/txt01"
+        android:layout_width="410dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="4dp"
+        android:background="#292525"
+        android:text="                       A Queda"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBomdia" />
+
+
+
+
+    <ImageView
+        android:id="@+id/img01"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/txt01"
+        app:layout_constraintEnd_toEndOf="@+id/txt01"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt01"
+        app:srcCompat="@drawable/_1" />
+
+    <ImageView
+        android:id="@+id/img02"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txt02"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt02"
+        app:srcCompat="@drawable/_2" />
+
+    <ImageView
+        android:id="@+id/img03"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txt03"
+        app:layout_constraintEnd_toEndOf="@+id/txt03"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt03"
+        app:srcCompat="@drawable/_3" />
+
+    <ImageView
+        android:id="@+id/img04"
+        android:layout_width="109dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txt04"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt04"
+        app:srcCompat="@drawable/_4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

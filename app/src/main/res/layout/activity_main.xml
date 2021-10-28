@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="#121111"
+    tools:context=".Modelo.MainActivity">
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btnGoogle"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.684" />
+
+    <EditText
+
+        android:id="@+id/etSenha"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:background="#BC3030"
+        android:backgroundTint="@color/cinzaEscuro"
+        android:ems="10"
+        android:hint="    Senha"
+        android:inputType="numberPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:background="#C6C52323"
+        android:backgroundTint="@color/cinzaEscuro"
+        android:ems="10"
+        android:hint="    Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/roxo"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+
+
+        android:text="ENTRAR"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <TextView
+        android:id="@+id/txtshows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ou"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="180dp"
+        android:layout_height="29dp"
+        android:shadowColor="@color/CinzaMeioTermo"
+        android:text="NÃO TEM UMA CONTA?"
+        android:textColor="@color/cinzaClaro"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792" />
+
+    <TextView
+        android:id="@+id/btnRedefinirSenha"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:clickable="true"
+        android:text="REDEFINIR SENHA"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873" />
+
+    <TextView
+        android:id="@+id/btnIncrever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="INSCREVA-SE"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.786" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="141dp"
+        android:layout_height="107dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096"
+        app:srcCompat="@drawable/panda_flor_final">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txtpodcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Panda"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="____________________           ____________________"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

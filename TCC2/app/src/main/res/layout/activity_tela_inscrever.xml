@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121111"
+    android:backgroundTint="@color/black"
+    tools:context=".Activity.telaIncrever">
+
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@color/cinzaEscuro"
+        android:ems="10"
+        android:hint="  Senha"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@color/cinzaEscuro"
+        android:ems="10"
+        android:hint="   Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/cinzaClaro"
+        android:textColorHint="#FFFCFC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.276" />
+
+    <EditText
+        android:id="@+id/edtConfirmarSenha"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@color/cinzaEscuro"
+        android:ems="10"
+        android:hint="  Confirmar senha"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="223dp"
+        android:layout_height="31dp"
+        android:text="Data de nascimento:"
+        android:textColor="@color/cinzaClaro"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558" />
+
+    <EditText
+        android:id="@+id/edtDia"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@color/cinzaEscuro"
+        android:ems="10"
+        android:inputType="date"
+        android:text="  Dia"
+        android:textColor="@color/cinzaClaro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <EditText
+        android:id="@+id/edtAno"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@color/cinzaEscuro"
+        android:ems="10"
+        android:inputType="date"
+        android:text="   Ano"
+        android:textColor="@color/cinzaClaro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <EditText
+        android:id="@+id/edtMes"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@color/cinzaEscuro"
+        android:ems="10"
+        android:inputType="date"
+        android:text="    Mês"
+        android:textAlignment="gravity"
+        android:textColor="@color/cinzaClaro"
+        android:textColorHint="#F4E7E7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="#BF3E3E"
+        android:backgroundTint="#AC4848"
+        android:text="CADASTRAR"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="141dp"
+        android:layout_height="107dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094"
+        app:srcCompat="@drawable/panda_flor_final" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71000004">
+
+
+        <Switch
+            android:id="@+id/sMasculino"
+            android:layout_width="133dp"
+            android:layout_height="50dp"
+            android:text="Masculino"
+            android:textColor="@color/cinzaClaro"
+            android:textSize="18sp" />
+
+        <Switch
+            android:id="@+id/sFeminino"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="Feminino"
+            android:textColor="@color/cinzaClaro"
+            android:textSize="18sp" />
+
+        <Switch
+            android:id="@+id/sOutros"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="Outros..."
+            android:textColor="@color/cinzaClaro"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

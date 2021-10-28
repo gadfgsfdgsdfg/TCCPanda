@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121111"
+    tools:context=".Activity.telaIncrever">
+
+    <RadioButton
+        android:id="@+id/btnfeminino"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:text="Feminino"
+        android:textColor="@color/cinzaClaro"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594" />
+
+    <RadioButton
+        android:id="@+id/btnoutros"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:text="outros..."
+        android:textColor="@color/cinzaClaro"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594" />
+
+    <RadioButton
+        android:id="@+id/btnmasculino"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:text="  Masculino"
+        android:textColor="@color/cinzaClaro"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594" />
+
+    <CheckBox
+        android:id="@+id/ckcompartilahr"
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+        android:text="  Compartilhar meus dados de registros com os  provedores de conteúdo do Panda para fins de markenting."
+        android:textColor="@color/cinzaClaro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.699" />
+
+    <EditText
+        android:id="@+id/Edtemail"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@color/cinzaEscuro"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="   Email"
+        android:textColor="@color/cinzaClaro"
+        android:textColorHint="#FFFCFC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176" />
+
+    <EditText
+        android:id="@+id/etpsenha"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@color/cinzaEscuro"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:hint="  Senha"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265" />
+
+    <EditText
+        android:id="@+id/txtnome"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@color/cinzaEscuro"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="  Como devemos chamar você"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="223dp"
+        android:layout_height="31dp"
+        android:text="Data de nascimento:"
+        android:textColor="@color/cinzaClaro"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.441" />
+
+    <EditText
+        android:id="@+id/edtdias"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:background="@color/cinzaEscuro"
+        android:ems="10"
+        android:inputType="date"
+        android:text="  Dia"
+        android:textColor="@color/cinzaClaro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <EditText
+        android:id="@+id/editTextDate3"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:background="@color/cinzaEscuro"
+        android:ems="10"
+        android:inputType="date"
+        android:text="   Ano"
+        android:textColor="@color/cinzaClaro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <EditText
+        android:id="@+id/editTextDate6"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="@color/cinzaEscuro"
+        android:ems="10"
+        android:inputType="date"
+        android:text="    Mês"
+        android:textAlignment="gravity"
+        android:textColor="@color/cinzaClaro"
+        android:textColorHint="#F4E7E7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="#BF3E3E"
+        android:backgroundTint="#AC4848"
+        android:text="ENTRE NO PANDA"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <CheckBox
+        android:id="@+id/cktermos"
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+        android:text="Aceito e os termos e condições."
+        android:textColor="@color/cinzaClaro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+        android:text="Autorizo minhas informações pessoais a serem coletadas, processadas e utilizadas conforme estabelecido na a política de privacidade."
+        android:textColor="@color/cinzaClaro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="141dp"
+        android:layout_height="107dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009"
+        app:srcCompat="@drawable/panda_flor_final" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

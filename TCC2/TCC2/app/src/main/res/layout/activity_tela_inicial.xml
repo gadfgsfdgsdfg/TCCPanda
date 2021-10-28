@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121111"
+    android:backgroundTint="#121111"
+    tools:context=".Activity.telaInicial"
+    tools:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="397dp"
+        android:layout_height="63dp"
+        android:background="@drawable/linearlayout"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Space
+            android:layout_width="55dp"
+            android:layout_height="100dp"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_baseline_home_24" />
+
+        <Space
+            android:layout_width="55dp"
+            android:layout_height="100dp"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_baseline_search_24" />
+
+        <Space
+            android:layout_width="55dp"
+            android:layout_height="100dp"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_baseline_storage_24" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="49dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008"
+        app:srcCompat="@drawable/ic_baseline_settings_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
